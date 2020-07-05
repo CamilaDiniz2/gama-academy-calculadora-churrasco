@@ -1,0 +1,206 @@
+/* Importa as fonts Lobster e Lato do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lobster&display=swap');
+
+:root{
+  --color-text-primary  : #F7F0F0;
+  --color-background-1  : #aa5ae7;
+  --color-background-2  : #731ab7;
+  --color-green         : #63DC3E;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:var(--color-background-1);
+  font-family: 'Lato', sans-serif;
+}
+
+header .titulo{
+  width: 80%;
+  background-color: var(--color-background-2);
+  margin: 0 auto;
+}
+
+header .titulo h5{
+  padding-top: 88px;
+  font-size: 26px;
+  line-height: 29px;
+  color: var(--color-text-primary);
+
+  text-align: center;
+  font-family: -apple-system, sans-serif; 
+}
+
+header .titulo h2{
+  font-size: 86px;
+  font-family: Lobster;
+  font-weight: normal;
+  line-height: 110px;
+  text-align: center;
+  color: var(--color-text-primary);
+
+  padding-bottom: 32px;
+  border-bottom: 2px solid var(--color-green);
+}
+
+.conteudo{
+  background-color: var(--color-background-2);
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 32px ;
+  padding-top: 64px;
+}
+
+.food h5,
+.drink h5{
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 51px;
+  font-family: Lobster;
+  color: var(--color-text-primary);
+
+  padding-left: 32px;
+}
+
+.quantidades{
+  padding: 32px;
+}
+
+.woman,
+.man,
+.child,
+.alcoholic,
+.no-alcoholic{
+  background-color: var(--color-background-2);
+  padding: 16px ;
+  border: 1px solid var(--color-background-2);
+}
+
+.woman input,
+.man input,
+.child input,
+.alcoholic input,
+.no-alcoholic input
+{
+  width: 170px;
+  height: 71px;
+
+  display: block;
+  margin: 0 auto;
+
+  background-color: var(--color-background-2);
+  border: 5px solid var(--color-text-primary);
+
+  border-radius: 5px;
+
+  outline-color: var(--color-background-2);
+}
+
+.woman input::placeholder,
+.woman input,
+.man input::placeholder,
+.man input,
+.child input::placeholder,
+.child input,
+.alcoholic input::placeholder,
+.alcoholic input,
+.no-alcoholic input::placeholder,
+.no-alcoholic input
+{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 38px;
+  
+}
+
+.woman label,
+.man label,
+.child label,
+.acompanhamento label,
+.alcoholic label,
+.no-alcoholic label{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+ 
+  color: #F7F0F0;
+
+  text-align: center;
+  padding-top: 8px;
+}
+
+.acompanhamento{
+  margin-left: 16px;
+  width: 315px;
+  background-color: var(--color-background-2);
+  border-color: var(--color-background-2);
+  display: inline-block;
+
+  text-align: center;
+}
+
+.acompanhamento label{
+  padding-left: 16px;
+}
+
+
+
+#botaoCalcular,
+#botaoCalcular:visited,
+#botaoCalcular:active{
+  width: 250px;
+  height: 60px;
+  
+  display: block;
+  margin: 64px auto;
+
+  background-color: var(--color-green);
+  border-radius: 10px;
+  border: 2px solid #63DC3E;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  
+  color: var(--color-background-2);
+  outline: none;
+}
+
+#botaoCalcular:hover{
+  width: 350px;
+
+  transition: 500ms;
+
+  box-shadow: 3px 3px 3px var(--color-green);
+}
+
+
+.results{
+  width: 90%;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: var(--color-background-1);
+  border-radius: 10px;
+
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.totais{
+  background-color: var(--color-background-1);
+  border-color: var(--color-background-1);
+  padding: 8px;
+
+  display: inline;
+}
+
+.totais label{
+  padding-left: 8px;
+}
+
