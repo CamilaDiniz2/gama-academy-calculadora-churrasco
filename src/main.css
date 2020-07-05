@@ -160,7 +160,7 @@ header .titulo h2{
 #botaoCalcular,
 #botaoCalcular:visited,
 #botaoCalcular:active{
-  width: 250px;
+  width: 50%;
   height: 60px;
   
   display: block;
@@ -179,7 +179,7 @@ header .titulo h2{
 }
 
 #botaoCalcular:hover{
-  width: 350px;
+  width: 70%;
 
   transition: 500ms;
 
