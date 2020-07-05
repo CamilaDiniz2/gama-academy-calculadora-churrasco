@@ -19,13 +19,15 @@ body{
 }
 
 header .titulo{
-  width: 80%;
+  width: 90%;
   background-color: var(--color-background-2);
   margin: 0 auto;
+  border-color: var(--color-background-2);
 }
 
+
 header .titulo h5{
-  padding-top: 88px;
+  padding-top: 16px;
   font-size: 26px;
   line-height: 29px;
   color: var(--color-text-primary);
@@ -35,21 +37,21 @@ header .titulo h5{
 }
 
 header .titulo h2{
-  font-size: 86px;
+  font-size: 60px;
   font-family: Lobster;
   font-weight: normal;
-  line-height: 110px;
+  line-height: 70px;
   text-align: center;
   color: var(--color-text-primary);
-
-  padding-bottom: 32px;
+  padding-bottom: 16px;
   border-bottom: 2px solid var(--color-green);
 }
 
 .conteudo{
   background-color: var(--color-background-2);
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+  padding-bottom: 32px;
 }
 
 .food,
@@ -66,11 +68,11 @@ header .titulo h2{
   color: var(--color-text-primary);
 
   padding-left: 32px;
-  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .quantidades{
-  padding: 32px;
+  padding: 16px;
 }
 
 .woman,
@@ -79,7 +81,7 @@ header .titulo h2{
 .alcoholic,
 .no-alcoholic{
   background-color: var(--color-background-2);
-  padding: 8px;
+  padding: 4px;
   border: 1px solid var(--color-background-2);
 }
 
@@ -196,10 +198,25 @@ header .titulo h2{
   color: #FFFFFF;
 }
 
+.results h5{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  font-family: Lobster;
+  color: var(--color-text-primary);
+
+  text-decoration: underline;
+
+  margin-bottom: 8px;
+}
+
 .totais{
   background-color: var(--color-background-1);
   border-color: var(--color-background-1);
-  padding: 8px;
+  margin: 16px;
 
   display: inline;
 }
