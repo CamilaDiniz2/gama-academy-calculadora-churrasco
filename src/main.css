@@ -50,8 +50,11 @@ header .titulo h2{
   background-color: var(--color-background-2);
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 32px ;
-  padding-top: 64px;
+}
+
+.food,
+.drink{
+  border-bottom: 1px solid #aa5ae7;
 }
 
 .food h5,
@@ -63,6 +66,7 @@ header .titulo h2{
   color: var(--color-text-primary);
 
   padding-left: 32px;
+  padding-top: 32px;
 }
 
 .quantidades{
@@ -75,7 +79,7 @@ header .titulo h2{
 .alcoholic,
 .no-alcoholic{
   background-color: var(--color-background-2);
-  padding: 16px ;
+  padding: 8px;
   border: 1px solid var(--color-background-2);
 }
 
@@ -135,11 +139,11 @@ header .titulo h2{
 }
 
 .acompanhamento{
-  margin-left: 16px;
-  width: 315px;
+  padding-bottom: 32px;
   background-color: var(--color-background-2);
   border-color: var(--color-background-2);
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 
   text-align: center;
 }
