@@ -188,14 +188,14 @@ header .titulo h2{
 
 
 .results{
-  width: 90%;
-  padding: 16px;
+  width: 95%;
+  padding: 8px;
   margin: 0 auto;
   background-color: var(--color-background-1);
   border-radius: 10px;
 
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   color: #FFFFFF;
 }
 
