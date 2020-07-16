@@ -43,6 +43,16 @@ $ git clone https://github.com/PedroSato/gama-academy-calculadora-churrasco
 
 ### Resultado obtido:
 
-Após confguração do CSS e usando elementos de bootstrap foi obtido o resultado mostrado na ilustração abaixo:
+Após confguração do CSS e usando elementos de bootstrap foi obtido o resultado mostrado nas ilustrações abaixo:
 
-<img src="gif.gif"  />
+<p align ="center">
+Versão desktop:
+
+<img src="src/images/desktop.gif"  />
+</p>
+
+<p align ="center">
+Versão Mobile:
+</hr>
+<img src="src/images/mobile.gif" width="100px" heigth="400px" />
+</p>
