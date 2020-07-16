@@ -40,3 +40,9 @@ $ git clone https://github.com/PedroSato/gama-academy-calculadora-churrasco
 ### Criado por:
 
 - Equipe Gama Academy && [@michellehorn](https://github.com/michellehorn)
+
+### Resultado obtido:
+
+Após confguração do CSS e usando elementos de bootstrap foi obtido o resultado mostrado na ilustração abaixo:
+
+<img src="gif.gif"  />
