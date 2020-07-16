@@ -54,5 +54,5 @@ Versão desktop:
 <p align ="center">
 Versão Mobile:
 </hr>
-<img src="src/images/mobile.gif" width="100px" heigth="400px" />
+<img src="src/images/mobile.gif" width="200px" heigth="400px" />
 </p>
